@@ -37,8 +37,8 @@ Start by forking or downloading this repository. Once you have the project files
 
 To begin, make sure you have Angular and the required Node modules installed. Open your terminal and run the following commands:
 
-npm install -g @angular/cli
-npm install
+- npm install -g @angular/cli
+- npm install
 
 ### Step 2: Start the Development Server
 
