@@ -1,0 +1,7 @@
+<div class="grid h-screen place-items-center">
+<div class="w-64 p-4 input-container">
+  <label class="input-label" for="githubUsername">Enter a GitHub username</label>
+  <input class="input-field border border-gray-300 rounded py-2 px-3 mt-1 block w-full" type="text" id="githubUsername"  (keyup)="setUsername($event)"/>
+  <button class="input-button bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-2" (click)="handleRepoListClick()">Get User Repositories</button>
+</div>
+</div>
